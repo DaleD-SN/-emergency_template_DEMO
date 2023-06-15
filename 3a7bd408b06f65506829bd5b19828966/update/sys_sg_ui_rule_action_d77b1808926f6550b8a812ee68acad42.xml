@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule_action">
+    <sys_sg_ui_rule_action action="INSERT_OR_UPDATE">
+        <operation display_value="Set Visibility">7e75bedc5b031010da168d8fa881c710</operation>
+        <order/>
+        <sys_class_name>sys_sg_ui_rule_action</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:38</sys_created_on>
+        <sys_id>d77b1808926f6550b8a812ee68acad42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_sg_ui_rule_action_d77b1808926f6550b8a812ee68acad42</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:38</sys_updated_on>
+        <target>text_08</target>
+        <ui_rule display_value="Community Alerts Hide Type(Form)">937b1808136f6550a39ee4ffc2befb56</ui_rule>
+        <value>false</value>
+    </sys_sg_ui_rule_action>
+</record_update>

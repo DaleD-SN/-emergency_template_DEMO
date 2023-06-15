@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition">
+    <sys_declarative_action_payload_definition action="INSERT_OR_UPDATE">
+        <action_key>REQUEST_REPORT</action_key>
+        <applicable_to>360935e9534723003eddddeeff7b127d</applicable_to>
+        <description/>
+        <label>Request  Report</label>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_377b58086b6f65503e0399cd467b206e</payload_field_table>
+        <payload_template>{"route":"record","fields":{"table":"{{table}}","sysId":"{{sysId}}"}}</payload_template>
+        <sys_class_name>sys_declarative_action_payload_definition</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:50</sys_created_on>
+        <sys_id>377b58086b6f65503e0399cd467b206e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request  Report</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_definition_377b58086b6f65503e0399cd467b206e</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:50</sys_updated_on>
+    </sys_declarative_action_payload_definition>
+</record_update>

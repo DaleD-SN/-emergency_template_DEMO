@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Emergency Alert - Workspace Config">7b7b5808066f655051980b18c9b07aa1</app_config>
+        <description/>
+        <extension_point/>
+        <fields>details</fields>
+        <icon/>
+        <name>Record Details Tab</name>
+        <optional_parameters/>
+        <order>100</order>
+        <parent_macroponent display_value="sendEmergencyAlert">8f7bd408ee6f65501530361d9bea47b9</parent_macroponent>
+        <parent_macroponent_composition_element_id>record_tabs_1_ckiiwfdnffoaaaabbbbddghhdamgvmbbbba</parent_macroponent_composition_element_id>
+        <route_type>details</route_type>
+        <screen_type display_value="Record Details Tab">437bd408656f655008dc2edc2d428eb7</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:36</sys_created_on>
+        <sys_id>0f7bd4083d6f65508aa1d88735d6c2b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Details Tab</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_ux_app_route_0f7bd4083d6f65508aa1d88735d6c2b5</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:36</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=0f7bd4083d6f65508aa1d88735d6c2b5"/>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="knowledge" name="knowledge">1f26da36c0a8016b000c7f06a1ce7e14</contains>
+        <role display_value="x_snc_emergency_0.emergency_alert_employee" name="x_snc_emergency_0.emergency_alert_employee">bb7b58080b6f6550cbead4639c39daa0</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:28</sys_created_on>
+        <sys_id>4f7bd4085b6f65502ccccd477109ffd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>knowledge.x_snc_emergency_0.emergency_alert_employee</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_user_role_contains_4f7bd4085b6f65502ccccd477109ffd3</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:28</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

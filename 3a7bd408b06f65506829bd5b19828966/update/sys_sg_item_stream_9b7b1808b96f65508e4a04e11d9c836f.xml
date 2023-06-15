@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item display_value="Your Status Reports (Employee)">537b1808bb6f65502d72995da3e90484</data_item>
+        <interleaved_field/>
+        <name>My Status Reports Item Stream</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:29</sys_created_on>
+        <sys_id>9b7b1808b96f65508e4a04e11d9c836f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Status Reports Item Stream</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_sg_item_stream_9b7b1808b96f65508e4a04e11d9c836f</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:29</sys_updated_on>
+        <table>x_snc_emergency_0_status_report</table>
+    </sys_sg_item_stream>
+</record_update>

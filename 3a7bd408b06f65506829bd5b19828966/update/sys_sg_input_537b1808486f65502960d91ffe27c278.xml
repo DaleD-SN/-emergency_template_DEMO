@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input">
+    <sys_sg_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <autofill_variable display_value="who_else_was_affected">d37b1808bb6f6550923a6a5398026879</autofill_variable>
+        <category/>
+        <description/>
+        <label>Who else was affected?</label>
+        <mandatory>false</mandatory>
+        <name>who_else_was_affected</name>
+        <order>90</order>
+        <page/>
+        <parameter_screen display_value="Edit">d77b1808106f655048fc313082689178</parameter_screen>
+        <parameter_section/>
+        <placeholder/>
+        <readonly>false</readonly>
+        <sys_class_name>sys_sg_input</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:31</sys_created_on>
+        <sys_id>537b1808486f65502960d91ffe27c278</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Who else was affected?</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_sg_input_537b1808486f65502960d91ffe27c278</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:31</sys_updated_on>
+        <type display_value="Reference">770c605517021010f2b43b9fadb95900</type>
+    </sys_sg_input>
+</record_update>

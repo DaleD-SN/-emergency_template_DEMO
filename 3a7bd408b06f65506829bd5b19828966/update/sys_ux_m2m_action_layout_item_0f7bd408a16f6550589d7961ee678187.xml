@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_action_layout_item">
+    <sys_ux_m2m_action_layout_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <sys_class_name>sys_ux_m2m_action_layout_item</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:49</sys_created_on>
+        <sys_id>0f7bd408a16f6550589d7961ee678187</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_ux_m2m_action_layout_item_0f7bd408a16f6550589d7961ee678187</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:49</sys_updated_on>
+        <table>x_snc_emergency_0_status_report</table>
+        <ux_form_action_layout display_value="Emergency Alert Form Actions">077bd408796f6550ed363efc4a14358c</ux_form_action_layout>
+        <ux_form_action_layout_item display_value="Request report for others affected">477bd408696f6550ff34639f6a882a8b</ux_form_action_layout_item>
+    </sys_ux_m2m_action_layout_item>
+</record_update>

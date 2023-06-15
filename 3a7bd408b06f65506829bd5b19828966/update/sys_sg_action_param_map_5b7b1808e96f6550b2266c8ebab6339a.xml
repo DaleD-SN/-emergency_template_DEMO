@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Request a report">9b7b1808cb6f6550fb40322c627cbf9f</button>
+        <item_parameter display_value="Manager">5f7b18089a6f6550864906bfdafc2f99</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:46:07</sys_created_on>
+        <sys_id>5b7b1808e96f6550b2266c8ebab6339a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5f7b18089a6f6550864906bfdafc2f99</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_5b7b1808e96f6550b2266c8ebab6339a</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:46:07</sys_updated_on>
+        <ui_parameter display_value="Manager">9f7b1808956f65506e4b77fb0f348398</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

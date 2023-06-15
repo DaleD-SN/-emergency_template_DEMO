@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_tab">
+    <sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applet_launcher display_value="My Status Report (Manager)">1f7b18087a6f65509d1d43b01477b894</applet_launcher>
+        <icon display_value="User">1dcb41a2b72200108223e126de11a991</icon>
+        <label>My Status Reports</label>
+        <sys_class_name>sys_sg_applet_launcher_tab</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:46:09</sys_created_on>
+        <sys_id>db7b18087f6f6550457e2028f96c018f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Status Reports</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_tab_db7b18087f6f6550457e2028f96c018f</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:46:09</sys_updated_on>
+    </sys_sg_applet_launcher_tab>
+</record_update>

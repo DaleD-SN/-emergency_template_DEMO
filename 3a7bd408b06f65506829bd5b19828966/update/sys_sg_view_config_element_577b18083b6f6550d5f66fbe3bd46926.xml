@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>text_03_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:39</sys_created_on>
+        <sys_id>577b18083b6f6550d5f66fbe3bd46926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_03_element</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_577b18083b6f6550d5f66fbe3bd46926</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:39</sys_updated_on>
+        <view_config display_value="Your Status Reports Form View Config">537b18080d6f65508bed4fa21b634c81</view_config>
+        <view_template_slot display_value="text_03">d37b1808456f65503af90bc7fdb8a134</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

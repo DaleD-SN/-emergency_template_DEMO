@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>text_06_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:52</sys_created_on>
+        <sys_id>1f7b1808346f65500c90d9687358583a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_06_element</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_1f7b1808346f65500c90d9687358583a</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:52</sys_updated_on>
+        <view_config display_value="Not responded Form View Config">1f7b1808c16f655052eb9c3d07798782</view_config>
+        <view_template_slot display_value="text_06">9b7b1808e16f6550fa49a6ae434a0f3c</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

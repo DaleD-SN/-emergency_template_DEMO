@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_dynamic_route_mapping">
+    <sys_ux_dynamic_route_mapping action="INSERT_OR_UPDATE">
+        <param_payload>{    "route" : "record",    "targetRoute": "",    "fields": {"table":"{{table}}","sysId":"{{sys_id}}"},    "params":"",    "redirect" : true,    "passiveNavigation" : "",    "title" : "",    "multiInstField" : "",    "external": "" }</param_payload>
+        <route_config display_value="Emergency Alert Route Config">4f7bd408006f655066b49ad3a0332292</route_config>
+        <source_component/>
+        <sys_class_name>sys_ux_dynamic_route_mapping</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:46:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8b7bd408f06f65507326fa67f4c0df92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_ux_dynamic_route_mapping_8b7bd408f06f65507326fa67f4c0df92</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:46:09</sys_updated_on>
+        <table>x_snc_emergency_0_work_status_request_task</table>
+    </sys_ux_dynamic_route_mapping>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_snc_emergency_0.emergency_alert_admin" name="x_snc_emergency_0.emergency_alert_admin">3b7b5808376f655002888982c9d0fba2</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:41</sys_created_on>
+        <sys_id>ff7b5808006f6550f14e28d857cee24e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3b7b5808376f655002888982c9d0fba2</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_embedded_help_role_ff7b5808006f6550f14e28d857cee24e</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:41</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

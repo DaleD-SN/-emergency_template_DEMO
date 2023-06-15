@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Close Report">9b7b1808a96f6550b789be2e8fe2598a</button>
+        <color_theme>destructive</color_theme>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>Close Report</label>
+        <location>footer</location>
+        <name>Close Report</name>
+        <order>20</order>
+        <parent>db7b18084b6f6550ec3f9460c3d76989</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:44</sys_created_on>
+        <sys_id>1b7b1808ba6f655070c5d2130b998289</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Close Report</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_sg_button_instance_1b7b1808ba6f655070c5d2130b998289</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:44</sys_updated_on>
+        <table>x_snc_emergency_0_status_report</table>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=1b7b1808ba6f655070c5d2130b998289"/>
+</record_update>

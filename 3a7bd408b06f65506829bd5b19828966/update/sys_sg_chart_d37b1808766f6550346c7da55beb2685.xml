@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_chart">
+    <sys_sg_chart action="INSERT_OR_UPDATE">
+        <jump_to_screen display_value="Not responded">577b1808326f655012fea3dce44e658c</jump_to_screen>
+        <name>Not responded (Emergency Alert)</name>
+        <report display_value="Not responded (Emergency Alert)">ab7b18085f6f65501dc93852c2e3b5bf</report>
+        <sys_class_name>sys_sg_chart</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:57</sys_created_on>
+        <sys_id>d37b1808766f6550346c7da55beb2685</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Not responded (Emergency Alert)</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_sg_chart_d37b1808766f6550346c7da55beb2685</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:57</sys_updated_on>
+        <title>Not responded</title>
+        <type>report</type>
+        <widget/>
+    </sys_sg_chart>
+</record_update>

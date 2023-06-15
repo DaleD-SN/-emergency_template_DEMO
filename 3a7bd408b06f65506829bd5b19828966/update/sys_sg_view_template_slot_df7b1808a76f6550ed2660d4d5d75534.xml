@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template_slot">
+    <sys_sg_view_template_slot action="INSERT_OR_UPDATE">
+        <name>text_01</name>
+        <sys_class_name>sys_sg_view_template_slot</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:39</sys_created_on>
+        <sys_id>df7b1808a76f6550ed2660d4d5d75534</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_01</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_sg_view_template_slot_df7b1808a76f6550ed2660d4d5d75534</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:39</sys_updated_on>
+        <type>Text</type>
+        <view_template display_value="Community Alerts">977b1808766f655096acb8e18a37633d</view_template>
+    </sys_sg_view_template_slot>
+</record_update>

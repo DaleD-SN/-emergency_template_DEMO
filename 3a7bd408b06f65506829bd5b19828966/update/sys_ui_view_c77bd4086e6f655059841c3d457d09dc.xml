@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>requestreportws_x_snc_emergency_0</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:35</sys_created_on>
+        <sys_id>c77bd4086e6f655059841c3d457d09dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RequestReportWS (x_snc_emergency_0)</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_ui_view_c77bd4086e6f655059841c3d457d09dc</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:35</sys_updated_on>
+        <title>RequestReportWS (x_snc_emergency_0)</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

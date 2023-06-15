@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
+    <sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE">
+        <applet_launcher display_value="My Status Report (Manager)">1f7b18087a6f65509d1d43b01477b894</applet_launcher>
+        <order>50</order>
+        <section display_value="Team's Status Reports">d37b18086d6f6550c68289dfa49ae891</section>
+        <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:56</sys_created_on>
+        <sys_id>5b7b1808076f6550368d23588915c691</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_5b7b1808076f6550368d23588915c691</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:56</sys_updated_on>
+    </sys_sg_applet_launcher_m2m_section>
+</record_update>

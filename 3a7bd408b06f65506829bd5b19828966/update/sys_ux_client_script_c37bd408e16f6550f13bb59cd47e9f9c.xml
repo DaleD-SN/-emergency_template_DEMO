@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="portal-landing">037bd408106f6550bf61f095f87c9da5</macroponent>
+        <name>Show Alert on load</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+     * @param {params} params
+     * @param {api} params.api
+     * @param {any} params.event
+     * @param {any} params.imports
+     */
+    function handler({
+        api,
+        event,
+        helpers,
+        imports
+    }) {
+        var alerts = [{
+      id: "record-alert-1",
+      status: "info",
+      icon: "info-circle-outline",
+      content: "Success",
+      action: {
+        type: "dismiss"
+      }
+    }];
+        api.emit('NOW_UXF_PAGE#ADD_NOTIFICATIONS', {
+            items: alerts
+        
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:44</sys_created_on>
+        <sys_id>c37bd408e16f6550f13bb59cd47e9f9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show Alert on load</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_ux_client_script_c37bd408e16f6550f13bb59cd47e9f9c</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:44</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

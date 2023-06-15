@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_snc_emergency_0.Emergency Alert - Manager</api_name>
+        <description/>
+        <name>Emergency Alert - Manager</name>
+        <roles name="x_snc_emergency_0.emergency_alert_manager">ff7b5808cc6f6550a9bc74ea226717a1</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:46:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0b7bd408806f6550cba64d663da265cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emergency Alert - Manager</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_ux_applicability_0b7bd408806f6550cba64d663da265cf</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:46:10</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>x_snc_emergency_0.emergency_alert_app__e</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger➛Status Report Request Record","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <master_snapshot>637b18082f6f65508af6a637fe2828d7</master_snapshot>
+        <name>Emergency Alert App - Emergency report/update state for managers</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>277b18082a6f655010f2c4d3bf6933d5</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>237b18087c6f6550f11f4aa770b21bd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emergency Alert App - Emergency report/update state for managers</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_hub_flow_237b18087c6f6550f11f4aa770b21bd6</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=237b18087c6f6550f11f4aa770b21bd6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=237b18087c6f6550f11f4aa770b21bd6"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_emergency_0_status_report_requests">self_reportISEMPTY^requesterISNOTEMPTY<item endquery="false" field="self_report" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="false" field="requester" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>277b18082a6f655010f2c4d3bf6933d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <table>x_snc_emergency_0_status_report_requests</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"ef7b18088d6f6550a3c5c9873c4865d3","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>237b18087c6f6550f11f4aa770b21bd6</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>ef7b18088d6f6550a3c5c9873c4865d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <trigger display_value="">277b18082a6f655010f2c4d3bf6933d5</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>ef7b18088d6f6550a3c5c9873c4865d3</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>a37b18085d6f65500f4c81037b1cfed4</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=237b18087c6f6550f11f4aa770b21bd6^sys_idNOT INef7b18088d6f6550a3c5c9873c4865d3"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=237b18087c6f6550f11f4aa770b21bd6^sys_idNOT IN637b1808ec6f655057d1137af72538d5"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Emergency Alert App - Emergency report/update state for managers">237b18087c6f6550f11f4aa770b21bd6</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>637b1808ec6f655057d1137af72538d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=637b1808ec6f655057d1137af72538d5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>637b1808ec6f655057d1137af72538d5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>2b7b1808f46f655079897dff695aafd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <value>self_reportISEMPTY^requesterISNOTEMPTY</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>637b1808ec6f655057d1137af72538d5</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>677b1808c56f6550934b4cd37d343ed4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <value>x_snc_emergency_0_status_report_requests</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>637b1808ec6f655057d1137af72538d5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>e77b1808986f6550365187ed0f7df6d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <value/>
+        <variable display_value="Run flow In">3f1b9e4e0f103300b599bca2ff767e21</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=237b18087c6f6550f11f4aa770b21bd6"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=237b18087c6f6550f11f4aa770b21bd6^sys_idNOT INaf7b1808b16f6550a260eb1a6c80d6d4"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>237b18087c6f6550f11f4aa770b21bd6</id>
+        <name>Emergency Alert App - Emergency report/update state for managers</name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>af7b1808b16f6550a260eb1a6c80d6d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=af7b1808b16f6550a260eb1a6c80d6d4"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=237b18087c6f6550f11f4aa770b21bd6^sys_idNOT IN237b1808c86f65503c3497413b657bd3,eb7b1808366f6550f838b29db8b28dd4"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Emergency Alert App - Emergency report/update state for managers">237b18087c6f6550f11f4aa770b21bd6</model>
+        <model_id>237b18087c6f6550f11f4aa770b21bd6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_237b18087c6f6550f11f4aa770b21bd6</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>237b1808c86f65503c3497413b657bd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Emergency Alert App - Emergency report/update state for managers">237b18087c6f6550f11f4aa770b21bd6</model>
+        <model_id>237b18087c6f6550f11f4aa770b21bd6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_237b18087c6f6550f11f4aa770b21bd6</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>eb7b1808366f6550f838b29db8b28dd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=237b18087c6f6550f11f4aa770b21bd6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=237b18087c6f6550f11f4aa770b21bd6"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=237b18087c6f6550f11f4aa770b21bd6^sys_idNOT IN2f7b1808586f6550a12ee3ddde79e9d3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Emergency Alert App - Emergency report/update state for managers">237b18087c6f6550f11f4aa770b21bd6</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>2f7b1808586f6550a12ee3ddde79e9d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <ui_id>127ab20e-eb0e-4f08-b506-948bc914f8fa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2f7b1808586f6550a12ee3ddde79e9d3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2f7b1808586f6550a12ee3ddde79e9d3</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>6b7b1808da6f6550898d197f303b52d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <value>x_snc_emergency_0_status_report_requests</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2f7b1808586f6550a12ee3ddde79e9d3</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>e37b1808006f6550c96a2c2e1e4738d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <value>fb7b5808ca6f6550f037bdce66e0828e</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2f7b1808586f6550a12ee3ddde79e9d3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>2f7b1808586f6550a12ee3ddde79e9d3</id>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>a77b1808fe6f6550f3f2944721f0b9d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2f7b1808586f6550a12ee3ddde79e9d3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2f7b1808586f6550a12ee3ddde79e9d3"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=237b18087c6f6550f11f4aa770b21bd6"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=237b18087c6f6550f11f4aa770b21bd6"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=237b18087c6f6550f11f4aa770b21bd6"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=237b18087c6f6550f11f4aa770b21bd6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_237b18087c6f6550f11f4aa770b21bd6^sys_idNOT INab7b18083f6f6550f4f7b4f76b1d50d2,e77b1808696f6550ded6691ed8a36fd2"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_237b18087c6f6550f11f4aa770b21bd6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>ab7b18083f6f6550f4f7b4f76b1d50d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_documentation_!!!table_name_387!!!_current_en</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_237b18087c6f6550f11f4aa770b21bd6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>e77b1808696f6550ded6691ed8a36fd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_documentation_!!!table_name_387!!!_table_name_en</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_237b18087c6f6550f11f4aa770b21bd6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_237b18087c6f6550f11f4aa770b21bd6"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_237b18087c6f6550f11f4aa770b21bd6"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=237b18087c6f6550f11f4aa770b21bd6^sys_idNOT IN277b1808aa6f65509c97f7802060bdd2"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"ab0a88ae3bfba010dbe753736b48510b","name":"plan","plan_signature":null}}</plan>
+        <plan_id>237b18087c6f6550f11f4aa770b21bd6</plan_id>
+        <snapshot>a77b18084a6f655095630b6135c418d6</snapshot>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>277b1808aa6f65509c97f7802060bdd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <trigger display_value="">277b18082a6f655010f2c4d3bf6933d5</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=237b18087c6f6550f11f4aa770b21bd6"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>x_snc_emergency_0.emergency_alert_app__e</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger➛Status Report Request Record","reference":"x_snc_emergency_0_status_report_requests","reference_display":"Status Report Request","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Emergency Alert App - Emergency report/update state for managers</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Emergency Alert App - Emergency report/update state for managers">237b18087c6f6550f11f4aa770b21bd6</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>637b18082f6f65508af6a637fe2828d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=637b18082f6f65508af6a637fe2828d7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=637b18082f6f65508af6a637fe2828d7"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=637b18082f6f65508af6a637fe2828d7^sys_idNOT INaf7b1808c26f655085373168e2889cd1"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Emergency Alert App - Emergency report/update state for managers">637b18082f6f65508af6a637fe2828d7</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>af7b1808c26f655085373168e2889cd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=af7b1808c26f655085373168e2889cd1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>af7b1808c26f655085373168e2889cd1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>2b7b18085a6f6550364c8404e2a14ad1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <value/>
+        <variable display_value="Run flow In">3f1b9e4e0f103300b599bca2ff767e21</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>af7b1808c26f655085373168e2889cd1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>637b1808a86f6550903f6b85a3881bd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <value>x_snc_emergency_0_status_report_requests</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>af7b1808c26f655085373168e2889cd1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>eb7b1808166f6550561cf03ea52684d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <value>self_reportISEMPTY^requesterISNOTEMPTY</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=637b18082f6f65508af6a637fe2828d7"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=637b18082f6f65508af6a637fe2828d7^sys_idNOT IN6f7b18080a6f6550bc3df8c0bf2e1ed2"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>637b18082f6f65508af6a637fe2828d7</id>
+        <name>Emergency Alert App - Emergency report/update state for managers</name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>6f7b18080a6f6550bc3df8c0bf2e1ed2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=6f7b18080a6f6550bc3df8c0bf2e1ed2"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=637b18082f6f65508af6a637fe2828d7^sys_idNOT IN677b18087c6f6550987800c5fc90b2d1,ef7b1808c86f6550c34b629f8588e0d0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Emergency Alert App - Emergency report/update state for managers">637b18082f6f65508af6a637fe2828d7</model>
+        <model_id>637b18082f6f65508af6a637fe2828d7</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_637b18082f6f65508af6a637fe2828d7</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>677b18087c6f6550987800c5fc90b2d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Emergency Alert App - Emergency report/update state for managers">637b18082f6f65508af6a637fe2828d7</model>
+        <model_id>637b18082f6f65508af6a637fe2828d7</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_637b18082f6f65508af6a637fe2828d7</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>ef7b1808c86f6550c34b629f8588e0d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=637b18082f6f65508af6a637fe2828d7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=637b18082f6f65508af6a637fe2828d7"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=637b18082f6f65508af6a637fe2828d7^sys_idNOT IN6b7b1808c16f6550586e26a3c63a6ed0"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Emergency Alert App - Emergency report/update state for managers">637b18082f6f65508af6a637fe2828d7</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>6b7b1808c16f6550586e26a3c63a6ed0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <ui_id>127ab20e-eb0e-4f08-b506-948bc914f8fa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6b7b1808c16f6550586e26a3c63a6ed0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6b7b1808c16f6550586e26a3c63a6ed0</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>2f7b1808256f6550bc7edc66e8d69ad0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <value>x_snc_emergency_0_status_report_requests</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6b7b1808c16f6550586e26a3c63a6ed0</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>a37b18081a6f655029d4c91e8047d7d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <value>fb7b5808ca6f6550f037bdce66e0828e</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6b7b1808c16f6550586e26a3c63a6ed0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>6b7b1808c16f6550586e26a3c63a6ed0</id>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>677b1808836f65508e8dd0fd0dcf06cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6b7b1808c16f6550586e26a3c63a6ed0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6b7b1808c16f6550586e26a3c63a6ed0"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=637b18082f6f65508af6a637fe2828d7"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=637b18082f6f65508af6a637fe2828d7"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=637b18082f6f65508af6a637fe2828d7"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=637b18082f6f65508af6a637fe2828d7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_637b18082f6f65508af6a637fe2828d7^sys_idNOT INa77b1808d06f6550534dcde0b1089bd0,ef7b1808cf6f6550ecc655c45f7258ce"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_637b18082f6f65508af6a637fe2828d7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>a77b1808d06f6550534dcde0b1089bd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_documentation_!!!table_name_511!!!_current_en</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_637b18082f6f65508af6a637fe2828d7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:20</sys_created_on>
+        <sys_id>ef7b1808cf6f6550ecc655c45f7258ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_documentation_!!!table_name_511!!!_table_name_en</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_637b18082f6f65508af6a637fe2828d7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_637b18082f6f65508af6a637fe2828d7"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_637b18082f6f65508af6a637fe2828d7"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>237b18087c6f6550f11f4aa770b21bd6</sys_id>
+        <latest_snapshot>637b18082f6f65508af6a637fe2828d7</latest_snapshot>
+        <compiler_build>glide-sandiego-12-22-2021__patchrtp-01-05-2022_01-05-2022_1908.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

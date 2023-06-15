@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_chart_color">
+    <sys_report_chart_color action="INSERT_OR_UPDATE">
+        <color/>
+        <color_name display_value="Emergency#E79C66">2b7b1808386f655029a55d525f68d8be</color_name>
+        <display>background-color:#e79c66</display>
+        <element>status_matrix</element>
+        <name>x_snc_emergency_0_status_report</name>
+        <sys_class_name>sys_report_chart_color</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:46:08</sys_created_on>
+        <sys_id>ef7b1808266f65507c1440867e62a7bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_emergency_0_status_report</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_report_chart_color_ef7b1808266f65507c1440867e62a7bd</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:46:08</sys_updated_on>
+        <value>2</value>
+    </sys_report_chart_color>
+</record_update>
