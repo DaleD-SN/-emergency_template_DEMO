@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Report an Emergency">177b1808196f6550add9706a58d01f9f</button>
+        <item_parameter display_value="Work status">1f7b1808ff6f6550872bce479e07839d</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:46:03</sys_created_on>
+        <sys_id>d77b1808ff6f6550de00a88a0523039c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1f7b1808ff6f6550872bce479e07839d</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_d77b1808ff6f6550de00a88a0523039c</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:46:03</sys_updated_on>
+        <ui_parameter display_value="Work status">5f7b1808346f65506a8326276068019c</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

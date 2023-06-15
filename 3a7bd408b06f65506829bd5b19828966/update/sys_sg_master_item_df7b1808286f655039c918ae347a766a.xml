@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_snc_emergency_0_work_status_request_task</datasource_table>
+        <datasource_table_condition table="x_snc_emergency_0_work_status_request_task">self_report.start_date&lt;=javascript:gs.beginningOfLast30Days()<item endquery="false" field="self_report.start_date" goto="false" newquery="false" operator="&lt;=" or="false" value="javascript:gs.beginningOfLast30Days()"/>
+        </datasource_table_condition>
+        <embedded_screen display_value="Dashboard records Form">137b1808cf6f65506879953aa1f6257f</embedded_screen>
+        <item_view/>
+        <name>Dashboard records Main Item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:50</sys_created_on>
+        <sys_id>df7b1808286f655039c918ae347a766a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dashboard records Main Item</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_sg_master_item_df7b1808286f655039c918ae347a766a</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:50</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="Dashboard records View Config">177b1808ae6f65500cfbf99024af7366</view_config>
+    </sys_sg_master_item>
+</record_update>

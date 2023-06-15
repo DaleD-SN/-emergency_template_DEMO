@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_emergency_0_status_report_requests" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_snc_emergency_0_status_report_requests" element="NULL" name="x_snc_emergency_0_status_report_requests" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4f7bd408516f6550a9a4df8f1dda93f4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>Dale</sys_created_by>
+            <sys_created_on>2023-06-15 13:45:58</sys_created_on>
+            <sys_id>4b7bd408456f6550a99693b1c91f8ff5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Dale</sys_updated_by>
+            <sys_updated_on>2023-06-15 13:45:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>emergency_details</element>
+            <list_id display_value="x_snc_emergency_0_status_report_requests" element="NULL" name="x_snc_emergency_0_status_report_requests" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4f7bd408516f6550a9a4df8f1dda93f4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>Dale</sys_created_by>
+            <sys_created_on>2023-06-15 13:45:58</sys_created_on>
+            <sys_id>837bd408c06f65500c73f3473df17cf3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Dale</sys_updated_by>
+            <sys_updated_on>2023-06-15 13:45:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>emergency_end</element>
+            <list_id display_value="x_snc_emergency_0_status_report_requests" element="NULL" name="x_snc_emergency_0_status_report_requests" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4f7bd408516f6550a9a4df8f1dda93f4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>Dale</sys_created_by>
+            <sys_created_on>2023-06-15 13:45:58</sys_created_on>
+            <sys_id>0b7bd408526f65501d0e907e297df7f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Dale</sys_updated_by>
+            <sys_updated_on>2023-06-15 13:45:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>emergency_start</element>
+            <list_id display_value="x_snc_emergency_0_status_report_requests" element="NULL" name="x_snc_emergency_0_status_report_requests" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4f7bd408516f6550a9a4df8f1dda93f4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>Dale</sys_created_by>
+            <sys_created_on>2023-06-15 13:45:58</sys_created_on>
+            <sys_id>cf7bd4088b6f6550a463be21603280f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Dale</sys_updated_by>
+            <sys_updated_on>2023-06-15 13:45:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>location</element>
+            <list_id display_value="x_snc_emergency_0_status_report_requests" element="NULL" name="x_snc_emergency_0_status_report_requests" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4f7bd408516f6550a9a4df8f1dda93f4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>Dale</sys_created_by>
+            <sys_created_on>2023-06-15 13:45:58</sys_created_on>
+            <sys_id>0f7bd408166f6550872e041b9d385bf2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Dale</sys_updated_by>
+            <sys_updated_on>2023-06-15 13:45:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>send_report_to</element>
+            <list_id display_value="x_snc_emergency_0_status_report_requests" element="NULL" name="x_snc_emergency_0_status_report_requests" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4f7bd408516f6550a9a4df8f1dda93f4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>Dale</sys_created_by>
+            <sys_created_on>2023-06-15 13:45:58</sys_created_on>
+            <sys_id>077bd4083d6f65500becb4460aa805f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Dale</sys_updated_by>
+            <sys_updated_on>2023-06-15 13:45:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>type_of_emergency</element>
+            <list_id display_value="x_snc_emergency_0_status_report_requests" element="NULL" name="x_snc_emergency_0_status_report_requests" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4f7bd408516f6550a9a4df8f1dda93f4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>Dale</sys_created_by>
+            <sys_created_on>2023-06-15 13:45:58</sys_created_on>
+            <sys_id>8f7bd408596f65501621ba0ebaa031f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Dale</sys_updated_by>
+            <sys_updated_on>2023-06-15 13:45:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_emergency_0_status_report_requests</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>Dale</sys_created_by>
+            <sys_created_on>2023-06-15 13:45:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f7bd408516f6550a9a4df8f1dda93f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_emergency_0_status_report_requests</sys_name>
+            <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_emergency_0_status_report_requests_null</sys_update_name>
+            <sys_updated_by>Dale</sys_updated_by>
+            <sys_updated_on>2023-06-15 13:45:58</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

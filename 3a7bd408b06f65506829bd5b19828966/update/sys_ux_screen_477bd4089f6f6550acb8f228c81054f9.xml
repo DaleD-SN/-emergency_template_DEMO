@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Emergency Alert - Workspace Config">7b7b5808066f655051980b18c9b07aa1</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Record">877bd4081f6f65509e0e4dba82317d81</macroponent>
+        <macroponent_config>{
+  "views" : "workspace",
+  "selectedTabIndex" : 0,
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>sendEmergencyAlert default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type/>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>477bd4089f6f6550acb8f228c81054f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sendEmergencyAlert default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_ux_screen_477bd4089f6f6550acb8f228c81054f9</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:47</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=477bd4089f6f6550acb8f228c81054f9"/>
+</record_update>

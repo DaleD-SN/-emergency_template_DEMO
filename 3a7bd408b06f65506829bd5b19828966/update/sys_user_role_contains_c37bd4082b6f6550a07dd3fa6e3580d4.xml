@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_snc_emergency_0.emergency_alert_employee" name="x_snc_emergency_0.emergency_alert_employee">bb7b58080b6f6550cbead4639c39daa0</contains>
+        <role display_value="x_snc_emergency_0.emergency_alert_manager" name="x_snc_emergency_0.emergency_alert_manager">ff7b5808cc6f6550a9bc74ea226717a1</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:29</sys_created_on>
+        <sys_id>c37bd4082b6f6550a07dd3fa6e3580d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_emergency_0.emergency_alert_employee.</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_user_role_contains_c37bd4082b6f6550a07dd3fa6e3580d4</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:29</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

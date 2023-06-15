@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_highlighted_value_config">
+    <sys_ux_m2m_highlighted_value_config action="INSERT_OR_UPDATE">
+        <highlighted_value display_value="state">bf7b58088a6f655051962e55bafa3a4c</highlighted_value>
+        <highlighted_value_config display_value="EmergencyAlertHighlightedConfigID">4b7bd408376f6550d0b476771eaa978a</highlighted_value_config>
+        <order>0</order>
+        <sys_class_name>sys_ux_m2m_highlighted_value_config</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:59</sys_created_on>
+        <sys_id>037bd408146f65501955d000437cae87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_ux_m2m_highlighted_value_config_037bd408146f65501955d000437cae87</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:59</sys_updated_on>
+    </sys_ux_m2m_highlighted_value_config>
+</record_update>

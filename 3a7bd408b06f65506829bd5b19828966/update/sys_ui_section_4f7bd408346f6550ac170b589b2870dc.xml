@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="4f7bd408346f6550ac170b589b2870dc" sys_domain="global" table="x_snc_emergency_0_status_report" version="3" view="requestreportws_x_snc_emergency_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>Dale</sys_created_by>
+            <sys_created_on>2023-06-15 13:45:37</sys_created_on>
+            <sys_id>8f7bd408646f6550909c45dcdf06ebdb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_emergency_0_status_report" sys_domain="global" view="c77bd4086e6f655059841c3d457d09dc">4f7bd408346f6550ac170b589b2870dc</sys_ui_section>
+            <sys_updated_by>Dale</sys_updated_by>
+            <sys_updated_on>2023-06-15 13:45:37</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type_of_emergency</element>
+            <position>1</position>
+            <sys_created_by>Dale</sys_created_by>
+            <sys_created_on>2023-06-15 13:45:37</sys_created_on>
+            <sys_id>8b7bd4082a6f655021d7b7e61dfb2cdc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_emergency_0_status_report" sys_domain="global" view="c77bd4086e6f655059841c3d457d09dc">4f7bd408346f6550ac170b589b2870dc</sys_ui_section>
+            <sys_updated_by>Dale</sys_updated_by>
+            <sys_updated_on>2023-06-15 13:45:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_date</element>
+            <position>2</position>
+            <sys_created_by>Dale</sys_created_by>
+            <sys_created_on>2023-06-15 13:45:37</sys_created_on>
+            <sys_id>cb7bd408f26f6550814f99562926f4db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_emergency_0_status_report" sys_domain="global" view="c77bd4086e6f655059841c3d457d09dc">4f7bd408346f6550ac170b589b2870dc</sys_ui_section>
+            <sys_updated_by>Dale</sys_updated_by>
+            <sys_updated_on>2023-06-15 13:45:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>Dale</sys_created_by>
+            <sys_created_on>2023-06-15 13:45:37</sys_created_on>
+            <sys_id>077bd4082d6f655040850a6b076796dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_emergency_0_status_report" sys_domain="global" view="c77bd4086e6f655059841c3d457d09dc">4f7bd408346f6550ac170b589b2870dc</sys_ui_section>
+            <sys_updated_by>Dale</sys_updated_by>
+            <sys_updated_on>2023-06-15 13:45:37</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_date</element>
+            <position>4</position>
+            <sys_created_by>Dale</sys_created_by>
+            <sys_created_on>2023-06-15 13:45:37</sys_created_on>
+            <sys_id>437bd408026f65507134ad57933181dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_emergency_0_status_report" sys_domain="global" view="c77bd4086e6f655059841c3d457d09dc">4f7bd408346f6550ac170b589b2870dc</sys_ui_section>
+            <sys_updated_by>Dale</sys_updated_by>
+            <sys_updated_on>2023-06-15 13:45:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>Dale</sys_created_by>
+            <sys_created_on>2023-06-15 13:45:37</sys_created_on>
+            <sys_id>477bd408196f6550f9e1dd6e1287a2db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_emergency_0_status_report" sys_domain="global" view="c77bd4086e6f655059841c3d457d09dc">4f7bd408346f6550ac170b589b2870dc</sys_ui_section>
+            <sys_updated_by>Dale</sys_updated_by>
+            <sys_updated_on>2023-06-15 13:45:37</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>emergency_details</element>
+            <position>6</position>
+            <sys_created_by>Dale</sys_created_by>
+            <sys_created_on>2023-06-15 13:45:37</sys_created_on>
+            <sys_id>037bd408216f6550d83b666064d89bdd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_emergency_0_status_report" sys_domain="global" view="c77bd4086e6f655059841c3d457d09dc">4f7bd408346f6550ac170b589b2870dc</sys_ui_section>
+            <sys_updated_by>Dale</sys_updated_by>
+            <sys_updated_on>2023-06-15 13:45:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_emergency_0_status_report</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Dale</sys_created_by>
+            <sys_created_on>2023-06-15 13:45:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f7bd408346f6550ac170b589b2870dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_emergency_0_status_report</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+            <sys_update_name>sys_ui_section_4f7bd408346f6550ac170b589b2870dc</sys_update_name>
+            <sys_updated_by>Dale</sys_updated_by>
+            <sys_updated_on>2023-06-15 13:45:37</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="RequestReportWS (x_snc_emergency_0)" name="requestreportws_x_snc_emergency_0">c77bd4086e6f655059841c3d457d09dc</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

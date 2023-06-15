@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="0b7bd4083a6f655052a6ca08b26dadf6" sys_domain="global" table="x_snc_emergency_0_status_report" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>Dale</sys_created_by>
+            <sys_created_on>2023-06-15 13:46:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f7bd408ed6f655029b0127040bc37f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_emergency_0_status_report" name="x_snc_emergency_0_status_report" sys_domain="global" view="Default view">0b7bd4083a6f655052a6ca08b26dadf6</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_emergency_0_status_report" sys_domain="global" view="Default view">cf7bd408dd6f65500e312b7adccc63f5</sys_ui_section>
+            <sys_updated_by>Dale</sys_updated_by>
+            <sys_updated_on>2023-06-15 13:46:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_emergency_0_status_report</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>Dale</sys_created_by>
+            <sys_created_on>2023-06-15 13:46:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b7bd4083a6f655052a6ca08b26dadf6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_emergency_0_status_report</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+            <sys_update_name>sys_ui_form_sections_0b7bd4083a6f655052a6ca08b26dadf6</sys_update_name>
+            <sys_updated_by>Dale</sys_updated_by>
+            <sys_updated_on>2023-06-15 13:46:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

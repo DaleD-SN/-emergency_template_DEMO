@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_color">
+    <sys_report_color action="INSERT_OR_UPDATE">
+        <color>#77b27b</color>
+        <display>background-color:#77b27b</display>
+        <name>Emergency#77B27B</name>
+        <sys_class_name>sys_report_color</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:46:09</sys_created_on>
+        <sys_id>677b1808bb6f655051fc95c1a4c08fbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emergency#77B27B</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_report_color_677b1808bb6f655051fc95c1a4c08fbe</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:46:09</sys_updated_on>
+        <themeable_color/>
+    </sys_report_color>
+</record_update>

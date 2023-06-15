@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config">
+    <sys_sg_view_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <description/>
+        <name>Dashboard records View Config</name>
+        <scratchpad_script/>
+        <sys_class_name>sys_sg_view_config</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:45:22</sys_created_on>
+        <sys_id>177b1808ae6f65500cfbf99024af7366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dashboard records View Config</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_sg_view_config_177b1808ae6f65500cfbf99024af7366</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:45:22</sys_updated_on>
+        <table>x_snc_emergency_0_work_status_request_task</table>
+        <template display_value="Emergency Alert Manger 2">5b7b1808ad6f6550b705fd18ef63af3d</template>
+    </sys_sg_view_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=177b1808ae6f65500cfbf99024af7366"/>
+</record_update>

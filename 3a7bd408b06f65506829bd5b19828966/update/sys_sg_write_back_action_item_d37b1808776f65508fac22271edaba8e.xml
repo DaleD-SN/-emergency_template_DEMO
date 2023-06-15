@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script><![CDATA[(function WriteBackAction(input) {
+    //Type appropriate comment here, and begin script below
+    var gr = new GlideRecord("x_snc_emergency_0_work_status_request_task");
+    gr.addQuery("self_report", input.sys_id);
+    gr.query();
+    if (gr.next()) {
+        gr.setValue("state", "Approved");
+        gr.update();
+		
+		var selfReport = new GlideRecord("x_snc_emergency_0_status_report");
+		if(selfReport.get(input.sys_id)){
+			selfReport.work_notes = gs.getMessage('Your work status request approved by {0}', gs.getUser().getDisplayName());
+			selfReport.update();
+		}
+    }
+})(input);]]></execution_script>
+        <name>Approve</name>
+        <parameter_screen/>
+        <query_condition table="x_snc_emergency_0_work_status_request_task">number={{number}}^EQ<item endquery="false" field="number" goto="false" newquery="false" operator="=" or="false" value="{{number}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>Dale</sys_created_by>
+        <sys_created_on>2023-06-15 13:46:10</sys_created_on>
+        <sys_id>d37b1808776f65508fac22271edaba8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approve</sys_name>
+        <sys_package display_value="emergency template for DEMO" source="x_snc_emergency_0">3a7bd408b06f65506829bd5b19828966</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="emergency template for DEMO">3a7bd408b06f65506829bd5b19828966</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_d37b1808776f65508fac22271edaba8e</sys_update_name>
+        <sys_updated_by>Dale</sys_updated_by>
+        <sys_updated_on>2023-06-15 13:46:10</sys_updated_on>
+        <table>x_snc_emergency_0_work_status_request_task</table>
+        <template>state=Approved^EQ</template>
+        <type>script</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=d37b1808776f65508fac22271edaba8e"/>
+</record_update>
